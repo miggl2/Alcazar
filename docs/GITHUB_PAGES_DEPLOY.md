@@ -8,6 +8,8 @@ Alcazar를 APK 없이 모바일 브라우저에서 플레이하게 만드는 가
 2. 이 프로젝트를 `main` 브랜치로 push한다.
 3. GitHub 저장소에서 `Settings` → `Pages` → `Build and deployment` → `Source`를 `GitHub Actions`로 고른다.
 
+워크플로는 `actions/configure-pages`의 `enablement: true`를 사용해 Pages 자동 활성화를 먼저 시도한다. 저장소 권한 정책 때문에 자동 활성화가 실패하면 위 3번을 수동으로 한 번 설정한다.
+
 저장소를 비워서 만들었다면 아래 명령으로 검증, 커밋, 원격 연결, push를 한 번에 진행할 수 있다.
 
 ```powershell
