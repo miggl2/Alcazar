@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#ead8bd" />
+  <g transform="translate(5 5)">
+    <rect x="0" y="0" width="30" height="30" fill="#e7c894" />
+    <rect x="30" y="0" width="30" height="30" fill="#d9b47b" />
+    <rect x="60" y="0" width="30" height="30" fill="#e7c894" />
+    <rect x="0" y="30" width="30" height="30" fill="#d9b47b" />
+    <rect x="30" y="30" width="30" height="30" fill="#e7c894" />
+    <rect x="60" y="30" width="30" height="30" fill="#d9b47b" />
+    <rect x="0" y="60" width="30" height="30" fill="#e7c894" />
+    <rect x="30" y="60" width="30" height="30" fill="#d9b47b" />
+    <rect x="60" y="60" width="30" height="30" fill="#e7c894" />
+    <path
+      d="M0 75H15V15H75V45H45V75H90"
+      fill="none"
+      stroke="#6f4424"
+      stroke-linecap="square"
+      stroke-linejoin="round"
+      stroke-width="7.5"
+    />
+    <path
+      d="M0 0H90M90 0V60M0 0V60M0 90H90M30 30H60M30 30V90M60 60H90"
+      fill="none"
+      stroke="#4a2e1c"
+      stroke-linecap="square"
+      stroke-linejoin="miter"
+      stroke-width="4"
+    />
+  </g>
+</svg>

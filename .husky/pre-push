@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# push 전 더 강력한 검증
+echo "🚀 push 전 안전 검증 시작..."
+node scripts/check.mjs
