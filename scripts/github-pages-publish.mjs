@@ -45,11 +45,12 @@ function argValue(name) {
 }
 
 function runGit(gitArgs, options = {}) {
-  return execFileSync(gitBin, gitArgs, {
+  const output = execFileSync(gitBin, gitArgs, {
     cwd: ROOT,
     encoding: 'utf-8',
     stdio: options.stdio ?? 'pipe',
-  }).trim();
+  });
+  return typeof output === 'string' ? output.trim() : '';
 }
 
 function fail(message) {

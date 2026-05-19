@@ -11,3 +11,4 @@
 
 - (아직 작업 기록 없음 — 첫 commit 시 자동 시작)
 - [2026-05-20 02:08] Prepare GitHub Pages deploy
+- [2026-05-20 02:09] Fix GitHub Pages publish script
